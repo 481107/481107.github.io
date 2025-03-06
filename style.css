@@ -13,10 +13,12 @@ body {
 #greeting {
     font-size: 34px;
     color: #dee3de;
+    text-align: center;
 }
 #time {
     font-size: 40px;
     color: #6279B8;
+    text-align: center;
 }
 @media all and (max-width: 600px) {
     .info {
