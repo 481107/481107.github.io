@@ -19,7 +19,7 @@ body {
 }
 #time {
     font-size: 40px;
-    color: #6279B8;
+    color: #4B286D;
     text-align: center;
 }
 @media all and (max-width: 600px) {
@@ -45,12 +45,13 @@ body {
 .prevailing, .gaming, .reading, .shopping, .surfing, .watching {
     display: flex;
     flex-direction: column;
-    border: 2px solid #EAFDF815;
-    background-color: #EAFDF805;
-    border-radius: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.16);
     margin: 5px;
     width: 305px;
     padding: 40px;
+    backdrop-filter: blur(6px);
 }
 a {
     transition: color 0.3s ease;
@@ -63,12 +64,12 @@ a:visited, a:link, a:active {
     line-height: 1.6;
 }
 a:hover {
-    color: #6279B8;
+    color: #4B286D;
     font-style: italic;
 }
 #p,#g,#r,#s,#u,#w
 {
-    color: #6279B8;
+    color: #4B286D;
 }
 #mode {
    filter: invert(100%) sepia(0%) saturate(1620%) hue-rotate(8deg) brightness(94%) contrast(88%)
