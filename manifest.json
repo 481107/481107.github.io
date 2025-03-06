@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "New Tab Startpage",
     "chrome_url_overrides": {
-      "newtab": "startpage.html"
+      "newtab": "index.html"
     },
     "content_security_policy": "script-src 'self'; script-src 'unsafe-inline'; object-src 'self';"
 }
