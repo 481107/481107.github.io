@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     margin-left: 20px;
     line-height: 0;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Courier Prime", monospace;
 }
 #greeting {
     font-size: 34px;
