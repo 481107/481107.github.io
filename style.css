@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     margin-left: 20px;
     line-height: 0;
-    font-family: "Cutive Mono", monospace;
+    font-family: "Roboto Mono", monospace;
 }
 #greeting {
     font-size: 34px;
@@ -24,7 +24,7 @@ body {
 }
 #date {
     font-size: 34px;
-    color: #71757B;
+    color: #F2EFF4;
     text-align: center;
 }
 @media all and (max-width: 600px) {
