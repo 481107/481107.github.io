@@ -24,7 +24,7 @@ body {
 }
 #date {
     font-size: 34px;
-    color: #D8D8D8;
+    color: #54595F;
     text-align: center;
 }
 @media all and (max-width: 600px) {
@@ -60,10 +60,9 @@ body {
 }
 a {
     transition: color 0.3s ease;
-    color: D8D8D8;
 }
 a:visited, a:link, a:active {
-    color: #D8D8D8;
+    color: #71757B;
     text-decoration: none;
     font-size: 33px;
     text-indent: 2px;
