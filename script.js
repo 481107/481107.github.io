@@ -2,7 +2,7 @@ const determineGreet = hours => document.getElementById("greeting").innerText = 
 
 window.addEventListener('load', (event) => {
     let today = new Date();
-    let date = today.toLocaleDateString([], { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    let date = today.toLocaleDateString([], { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' });
     let time = today.toLocaleTimeString([], { hour12: false, hour: '2-digit', minute: '2-digit' });
     determineGreet(new Date().getHours());
     displayDate(date);
