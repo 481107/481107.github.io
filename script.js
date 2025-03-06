@@ -11,7 +11,7 @@ window.addEventListener('load', (event) => {
 
 setInterval(function () {
     var today = new Date();
-    let date = today.toLocaleDateString([], { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    let date = today.toLocaleDateString([], { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' });
     var time = today.toLocaleTimeString([], { hour12: false, hour: '2-digit', minute: '2-digit' });
     document.getElementById("date").innerHTML = date;
     document.getElementById("time").innerHTML = time;
