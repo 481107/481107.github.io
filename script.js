@@ -2,14 +2,14 @@ const determineGreet = hours => document.getElementById("greeting").innerText = 
 
 window.addEventListener('load', (event) => {
     let today = new Date();
-    let time = today.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    let time = today.toLocaleTimeString([], { hour12: false, hour: '2-digit', minute: '2-digit' });
     determineGreet(new Date().getHours());
     displayTime(time);
 });
 
 setInterval(function () {
     var today = new Date();
-    var time = today.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    var time = today.toLocaleTimeString([], { hour12: false, hour: '2-digit', minute: '2-digit' });
     document.getElementById("time").innerHTML = time;
 }, 1000);
 
