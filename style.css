@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     margin-left: 20px;
     line-height: 0;
-    font-family: "Fira Code", monospace;
+    font-family: "Cutive Mono", monospace;
 }
 #greeting {
     font-size: 34px;
