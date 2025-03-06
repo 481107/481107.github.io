@@ -67,9 +67,25 @@ a:hover {
     color: #2B8000;
     font-style: italic;
 }
-#p,#g,#r,#s,#u,#w
+#p
 {
-    color: #4B286D;
+    color: #66CC00;
+}
+#g
+{
+    color: #C6EC2D;
+}#r
+{
+    color: #ECB32D;
+}#s
+{
+    color: #63C1A0;
+}#u
+{
+    color: #89D3DF;
+}#w
+{
+    color: #E01A59;
 }
 #mode {
    filter: invert(100%) sepia(0%) saturate(1620%) hue-rotate(8deg) brightness(94%) contrast(88%)
