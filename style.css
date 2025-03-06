@@ -55,6 +55,7 @@ body {
 }
 a {
     transition: color 0.3s ease;
+    color: D8D8D8;
 }
 a:visited, a:link, a:active {
     color: #D8D8D8;
