@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Startpage #4",
+    "name": "🔗 Startpage",
     "version": "1.0.0",
-    "description": "New Tab Startpage",
+    "description": "🔗 Startpage",
     "chrome_url_overrides": {
       "newtab": "index.html"
     },
