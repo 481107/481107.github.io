@@ -21,11 +21,13 @@ body {
     font-size: 40px;
     color: #4B286D;
     text-align: center;
+    text-shadow:-1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
 }
 #date {
     font-size: 34px;
     color: #F2EFF4;
     text-align: center;
+    text-shadow:-1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
 }
 @media all and (max-width: 600px) {
     .info {
@@ -55,7 +57,7 @@ body {
     background-color: rgba(255, 255, 255, 0.16);
     margin: 5px;
     width: 270px;
-    padding: 40px;
+    padding: 10px 40px 40px 40px;
     backdrop-filter: blur(6px);
 }
 a {
