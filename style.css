@@ -27,7 +27,7 @@ body {
     font-size: 34px;
     color: #F2EFF4;
     text-align: center;
-    text-shadow:-1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+    text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 @media all and (max-width: 600px) {
     .info {
