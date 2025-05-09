@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 50px;
     line-height: 0;
     font-family: 'Barlow', sans-serif;
 }
@@ -43,7 +43,7 @@ body {
 }
 .lists {
     display: flex;
-    margin-top: 90px;
+    margin-top: 50px;
     flex-wrap: wrap;
     vertical-align: center;
     justify-content: center; 
