@@ -1,188 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- =CONCATENATE("			","<a ","class=",CHAR(34),IF(ISEVEN(ROW()),"l1","l2"),CHAR(34)," ","href=",CHAR(34),B2,CHAR(34),">",A2,"</a>") -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Times%20New%20Roman&display=swap" rel="stylesheet">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-.1em%22 y=%22.9em%22 font-size=%2280%22>📔</text></svg>">
-    <title>Bookmarks</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-.1em%22 y=%22.9em%22 font-size=%2280%22>📔</text></svg>">
+	<title>Bookmarks</title>
 </head>
-    <body class="bm">
-    <div class="info">
-        <h1><a class="bm-title" href="https://481107.github.io/bm.html">Bookmarks</a></h1>        
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Confiding</p>
-            <div class="bm-links">
-                <a class="l1" href="https://www.ctfs.com/content/ctfs/en.html">Canadian Tire Bank</a>
-                <a class="l2" href="https://www.capitalone.ca/">Capital One</a>
-                <a class="l1" href="https://www.cibconline.cibc.com/">CIBC</a>
-                <a class="l2" href="https://www.epost.ca/edms/en/sign_in.shtml">epost</a>
-                <a class="l1" href="https://www.eqbank.ca/">EQ Bank</a>
-                <a class="l2" href="https://www.hometrust.ca/">Home Trust</a>
-                <a class="l1" href="https://korecki.securecafe.com/residentservices/korecki-condocafe/userlogin.aspx">Korecki</a>
-                <a class="l2" href="https://www.mbna.ca/index.html">MBNA</a>
-                <a class="l1" href="https://www.paypal.com/ca/">PayPal</a>
-                <a class="l2" href="https://www.ranchovan.com/">Rancho</a>
-                <a class="l1" href="https://www.richmond.ca/">Richmond</a>
-                <a class="l2" href="https://www.rogersbank.com/en">Rogers Bank</a>
-                <a class="l1" href="https://www.simplii.com/">Simplii</a>
-                <a class="l2" href="https://www.tangerine.ca/">Tangerine</a>
-                <a class="l1" href="https://vancouver.ca/">Vancouver</a>
-                <a class="l2" href="https://www.wealthsimple.com/">Wealthsimple</a>
-            </div>
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Gaming</p>
-	    <div class="bm-links">
-                <a class="l1" href="https://dl.rpdl.net/">dl.rpdl.net</a>
-		<a class="l2" href="https://store.epicgames.com/">Epic Games</a>
-                <a class="l1" href="https://f95zone.to/">F95Zone</a>
-                <a class="l2" href="https://www.emuparadise.me/magazine-comic-guide-scans/guides">Emuparadise - Game Guides</a>
-                <a class="l1" href="https://www.epforums.org/">Emuparadise Forums</a>
-		<a class="l2" href="https://www.gog.com/en/">GOG</a>
-                <a class="l1" href="https://archive.org/details/htgdb-gamepacks">HTGDB Gamepacks</a>
-		<a class="l2" href="https://www.humblebundle.com/">Humble Bundle</a>
-                <a class="l1" href="https://github.com/EvilJagaGenius/jagoombacolor">jagoombacolor - GBC on GBA</a>
-                <a class="l2" href="https://github.com/jeffman/Mother2GbaTranslation">Mother2GbaTranslation</a>
-                <a class="l1" href="https://git.virtual-boy.com/PVB/pvbemu">pvbemu - VB Emu</a>
-                <a class="l2" href="https://gaming.amazon.com/">Prime Gaming</a>
-		<a class="l1" href="https://www.resetera.com">ResetEra</a>
-		<a class="l2" href="https://store.steampowered.com/">Steam</a>
-                <a class="l1" href="https://github.com/5x/easy-steam-free-packages">Steam Free Packages</a>
-		<a class="l2" href="https://steamdb.info/">SteamDB</a>
-                <a class="l1" href="https://3dnes.blogspot.ca">Zelda II FPS</a>
-            </div>
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Googling</p>
-	    <div class="bm-links">
-                <a class="l1" href="https://gemini.google.com/">Gemini</a>
-                <a class="l2" href="https://mail.google.com/">Gmail</a>
-                <a class="l1" href="https://calendar.google.com/">Google Calendar</a>
-                <a class="l2" href="https://drive.google.com/">Google Drive</a>
-                <a class="l1" href="https://keep.google.com/">Google Keep</a>
-                <a class="l2" href="https://photos.google.com/">Google Photos</a>
-                <a class="l1" href="https://maps.google.com/">Google Maps</a>
-		<a class="l1" href="https://workspace.google.com/">Google Workspace</a>
-            </div>
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Looking</p>
-	    <div class="bm-links">
-                <a class="l1" href="https://www.deviantart.com/eldi13/gallery">Final Fantasy Logos</a>
-                <a class="l2" href="https://konachan.com/">konachan</a>
-                <a class="l1" href="https://www.userlogos.org/">UserLogos.org</a>
-                <a class="l2" href="https://wallhaven.cc/">wallhaven</a>
-            </div>
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Operating</p>
-	    <div class="bm-links">
-                <a class="l1" href="https://aeromods.app/">AeroMods</a>
-                <a class="l2" href="https://firebog.net">Blocklist Collection</a>
-                <a class="l1" href="https://github.com/subhra74/img2pdf">Convert Image to PDF</a>
-                <a class="l2" href="https://github.com/ShizukuIchi/pdf-editor">Offline PDF editor</a>
-                <a class="l1" href="http://portableapps.com">PortableApps.com</a>
-                <a class="l2" href="https://github.com/revanced-apks/build-apps">The ReVanced APKs</a>
-                <a class="l1" href="https://temp-mail.org">Temp Mail</a>
-                <a class="l2" href="https://uso.kkx.one">UserStyles.org Archive</a>
-                <a class="l1" href="https://www.virustotal.com">VirusTotal</a>
-            </div>
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Reading</p>
-	    <div class="bm-links">
-                <a class="l1" href="https://allnovelfull.com/">All Novel Full</a>
-                <a class="l2" href="https://annas-archive.org/">Anna’s Archive</a>
-                <a class="l1" href="https://theaudiobookbay.se/">AudioBook Bay</a>
-                <a class="l2" href="https://fmhy.net/readingpiracyguide">fmhy - Reading</a>
-                <a class="l1" href="https://www.lightnovelpub.com/">Light Novel Hub</a>
-		<a class="l2" href="https://mangadex.org/">MangaDex</a>
-                <a class="l1" href="https://mydramanovel.com/">MyDramaNovel</a>
-                <a class="l2" href="https://novelfull.com/">Novel Full</a>
-                <a class="l1" href="https://novelsonline.net/">Novels Online</a>
-                <a class="l2" href="https://www.novelupdates.com/">Novel Updates</a>
-                <a class="l1" href="https://readnovelfull.com/">Read Novel Full</a>
-            </div>
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Remaining</p>
-	    <div class="bm-links">
-                <a class="l1" href="https://www.bing.com/">Bing</a>
-                <a class="l2" href="https://bugmenot.com/">BugMeNot</a>
-                <a class="l1" href="https://duckduckgo.com/">DuckDuckGo</a>
-                <a class="l2" href="https://fmhy.net/">freemediaheckyeah</a>
-                <a class="l1" href="https://rewards.bing.com/">Microsoft Rewards</a>
-                <a class="l2" href="https://www.printables.com/">Printables</a>
-                <a class="l1" href="https://www.thingiverse.com/">Thingiverse</a>
-            </div>
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Scaling</p>
-	    <div class="bm-links">
-                <a class="l1" href="https://hobbytronics.home.blog/2023/12/18/a-new-improved-gbs-control-and-upgrades/">GBS Control and Upgrades</a>
-                <a class="l2" href="https://amaiorano.io/2023/03/14/gbs-control-case-hdmi.html">GBS Control Case for HDMI Out</a>
-                <a class="l1" href="https://www.thingiverse.com/thing:6504184">GBS Control Enclosure</a>
-                <a class="l2" href="https://www.thingiverse.com/thing:5169902">GBS Control Si5351 Clock Generator Mount</a>
-            </div>
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Shopping</p>
-	    <div class="bm-links">
-                <a class="l1" href="https://www.aliexpress.com/">AliExpress</a>
-                <a class="l2" href="https://www.altitude-sports.com/">Altitude Sports</a>
-                <a class="l1" href="https://www.amazon.ca/">Amazon</a>
-                <a class="l2" href="http://www.amiami.com">AmiAmi</a>
-                <a class="l1" href="https://www.canadiantire.ca/en.html">Canadian Tire</a>
-                <a class="l2" href="https://www.costco.ca/">Costco</a>
-                <a class="l1" href="https://www.dekudeals.com">Deku Deals</a>
-                <a class="l2" href="https://www.ebay.ca/">eBay</a>
-                <a class="l1" href="https://www.etsy.com/ca/">Etsy</a>
-                <a class="l2" href="https://www.facebook.com/marketplace/">Facebook Marketplace</a>
-                <a class="l1" href="http://gamedealscanada.com">Game Deals Canada</a>
-                <a class="l2" href="https://keepa.com">Keepa</a>
-                <a class="l1" href="https://www.rakuten.ca">Rakuten Canada</a>
-                <a class="l2" href="https://forums.redflagdeals.com/hot-deals-f9/">RedFlagDeals</a>
-                <p class="bm-subcategory">WWII</p>
-                <a class="l1" href="https://www.atthefront.com/">At The Front</a>
-                <a class="l2" href="https://bronsonshop.com/">Bronson Mfg. Co.</a>
-                <a class="l1" href="https://www.whatpriceglory.com/">What Price Glory</a>
-            </div>
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Surfing</p>
-	    <div class="bm-links">
-                <a class="l1" href="https://discord.com/">Discord</a>
-                <a class="l2" href="https://feedly.com/">Feedly</a>
-		<a class="l1" href="https://www.instagram.com/">Instagram</a>
-		<a class="l2" href="https://www.reddit.com/">Reddit</a>
-		<a class="l1" href="https://www.tiktok.com/">TikTok</a>
-                <a class="l2" href="https://twitter.com/">Twitter</a>
-            </div>
-    </div>
-    <div class="bm-box">
-        <p class="bm-category">Watching</p>
-	    <div class="bm-links">
-                <a class="l1" href="https://aidrama.me/">aidrama.me</a>
-                <a class="l2" href="https://www.duboku.tv/">Doboku</a>
-                <a class="l1" href="https://dramaday.me/">Dramaday</a>
-                <a class="l2" href="https://everythingmoe.com/">EverythingMoe</a>
-                <a class="l1" href="https://fmhy.net/videopiracyguide">fmhy - Streaming</a>
-                <a class="l2" href="https://goplay.ml/">GoPlay</a>
-                <a class="l1" href="https://www1.adramas.se/">icdrama.se</a>
-                <a class="l2" href="https://kisskh.do">kisskh</a>
-                <a class="l1" href="https://mydramalist.com/">MyDramaList</a>
-                <a class="l2" href="https://nyaa.si/">Nyaa</a>
-                <a class="l1" href="https://playboard.co/">PLAYBOARD</a>
-                <a class="l2" href="https://play.pocketcasts.com/podcasts">Pocket Casts</a>
-                <a class="l1" href="https://www.primevideo.com">Prime Video</a>
-                <a class="l2" href="https://www.twitch.tv">Twitch</a>
-                <a class="l1" href="https://www.youtube.com/feed/subscriptions">YouTube</a>
-            </div>
-    </div>
-        <script src="script.js"></script>
-    </body>
+
+<body class="bm">
+	<div class="info">
+		<h1><a class="bm-title" href="index.html">Bookmarks</a></h1>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Confiding</p>
+		<div class="bm-links">
+			<a class="l1" href="https://www.ctfs.com/content/ctfs/en.html">Canadian Tire Bank</a>
+			<a class="l2" href="https://www.capitalone.ca/">Capital One</a>
+			<a class="l1" href="https://www.cibconline.cibc.com/">CIBC</a>
+			<a class="l2" href="https://www.epost.ca/edms/en/sign_in.shtml">epost</a>
+			<a class="l1" href="https://www.eqbank.ca/">EQ Bank</a>
+			<a class="l2" href="https://www.hometrust.ca/">Home Trust</a>
+			<a class="l1" href="https://korecki.securecafe.com/residentservices/korecki-condocafe/userlogin.aspx">Korecki</a>
+			<a class="l2" href="https://www.mbna.ca/index.html">MBNA</a>
+			<a class="l1" href="https://www.paypal.com/ca/">PayPal</a>
+			<a class="l2" href="https://www.ranchovan.com/">Rancho</a>
+			<a class="l1" href="https://www.richmond.ca/">Richmond</a>
+			<a class="l2" href="https://www.rogersbank.com/en">Rogers Bank</a>
+			<a class="l1" href="https://www.simplii.com/">Simplii</a>
+			<a class="l2" href="https://www.tangerine.ca/">Tangerine</a>
+			<a class="l1" href="https://vancouver.ca/">Vancouver</a>
+			<a class="l2" href="https://www.wealthsimple.com/">Wealthsimple</a>
+		</div>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Gaming</p>
+		<div class="bm-links">
+			<a class="l1" href="https://dl.rpdl.net/">dl.rpdl.net</a>
+			<a class="l2" href="https://store.epicgames.com/">Epic Games</a>
+			<a class="l1" href="https://f95zone.to/">F95Zone</a>
+			<a class="l2" href="https://www.emuparadise.me/magazine-comic-guide-scans/guides">Emuparadise - Game Guides</a>
+			<a class="l1" href="https://www.epforums.org/">Emuparadise Forums</a>
+			<a class="l2" href="https://www.gog.com/en/">GOG</a>
+			<a class="l1" href="https://archive.org/details/htgdb-gamepacks">HTGDB Gamepacks</a>
+			<a class="l2" href="https://www.humblebundle.com/">Humble Bundle</a>
+			<a class="l1" href="https://github.com/EvilJagaGenius/jagoombacolor">jagoombacolor - GBC on GBA</a>
+			<a class="l2" href="https://github.com/jeffman/Mother2GbaTranslation">Mother2GbaTranslation</a>
+			<a class="l1" href="https://git.virtual-boy.com/PVB/pvbemu">pvbemu - VB Emu</a>
+			<a class="l2" href="https://gaming.amazon.com/">Prime Gaming</a>
+			<a class="l1" href="https://www.resetera.com">ResetEra</a>
+			<a class="l2" href="https://store.steampowered.com/">Steam</a>
+			<a class="l1" href="https://github.com/5x/easy-steam-free-packages">Steam Free Packages</a>
+			<a class="l2" href="https://steamdb.info/">SteamDB</a>
+			<a class="l1" href="https://3dnes.blogspot.ca">Zelda II FPS</a>
+		</div>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Googling</p>
+		<div class="bm-links">
+			<a class="l1" href="https://gemini.google.com/">Gemini</a>
+			<a class="l2" href="https://mail.google.com/">Gmail</a>
+			<a class="l1" href="https://calendar.google.com/">Google Calendar</a>
+			<a class="l2" href="https://drive.google.com/">Google Drive</a>
+			<a class="l1" href="https://keep.google.com/">Google Keep</a>
+			<a class="l2" href="https://photos.google.com/">Google Photos</a>
+			<a class="l1" href="https://maps.google.com/">Google Maps</a>
+			<a class="l2" href="https://workspace.google.com/">Google Workspace</a>
+		</div>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Looking</p>
+		<div class="bm-links">
+			<a class="l1" href="https://www.deviantart.com/eldi13/gallery">Final Fantasy Logos</a>
+			<a class="l2" href="https://konachan.com/">konachan</a>
+			<a class="l1" href="https://www.userlogos.org/">UserLogos.org</a>
+			<a class="l2" href="https://wallhaven.cc/">wallhaven</a>
+		</div>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Operating</p>
+		<div class="bm-links">
+			<a class="l1" href="https://aeromods.app/">AeroMods</a>
+			<a class="l2" href="https://firebog.net">Blocklist Collection</a>
+			<a class="l1" href="https://github.com/subhra74/img2pdf">Convert Image to PDF</a>
+			<a class="l2" href="https://github.com/ShizukuIchi/pdf-editor">Offline PDF editor</a>
+			<a class="l1" href="http://portableapps.com">PortableApps.com</a>
+			<a class="l2" href="https://github.com/revanced-apks/build-apps">The ReVanced APKs</a>
+			<a class="l1" href="https://temp-mail.org">Temp Mail</a>
+			<a class="l2" href="https://uso.kkx.one">UserStyles.org Archive</a>
+			<a class="l1" href="https://www.virustotal.com">VirusTotal</a>
+		</div>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Reading</p>
+		<div class="bm-links">
+			<a class="l1" href="https://allnovelfull.com/">All Novel Full</a>
+			<a class="l2" href="https://annas-archive.org/">Anna’s Archive</a>
+			<a class="l1" href="https://theaudiobookbay.se/">AudioBook Bay</a>
+			<a class="l2" href="https://fmhy.net/readingpiracyguide">fmhy - Reading</a>
+			<a class="l1" href="https://www.lightnovelpub.com/">Light Novel Hub</a>
+			<a class="l2" href="https://mangadex.org/">MangaDex</a>
+			<a class="l1" href="https://mydramanovel.com/">MyDramaNovel</a>
+			<a class="l2" href="https://novelfull.com/">Novel Full</a>
+			<a class="l1" href="https://novelsonline.net/">Novels Online</a>
+			<a class="l2" href="https://www.novelupdates.com/">Novel Updates</a>
+			<a class="l1" href="https://readnovelfull.com/">Read Novel Full</a>
+		</div>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Remaining</p>
+		<div class="bm-links">
+			<a class="l1" href="https://www.bing.com/">Bing</a>
+			<a class="l2" href="https://bugmenot.com/">BugMeNot</a>
+			<a class="l1" href="https://duckduckgo.com/">DuckDuckGo</a>
+			<a class="l2" href="https://fmhy.net/">freemediaheckyeah</a>
+			<a class="l1" href="https://rewards.bing.com/">Microsoft Rewards</a>
+			<a class="l2" href="https://www.printables.com/">Printables</a>
+			<a class="l1" href="https://www.thingiverse.com/">Thingiverse</a>
+		</div>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Scaling</p>
+		<div class="bm-links">
+			<a class="l1" href="https://hobbytronics.home.blog/2023/12/18/a-new-improved-gbs-control-and-upgrades/">GBS Control and Upgrades</a>
+			<a class="l2" href="https://amaiorano.io/2023/03/14/gbs-control-case-hdmi.html">GBS Control Case for HDMI Out</a>
+			<a class="l1" href="https://www.thingiverse.com/thing:6504184">GBS Control Enclosure</a>
+			<a class="l2" href="https://www.thingiverse.com/thing:5169902">GBS Control Si5351 Clock Generator Mount</a>
+		</div>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Shopping</p>
+		<div class="bm-links">
+			<a class="l1" href="https://www.aliexpress.com/">AliExpress</a>
+			<a class="l2" href="https://www.altitude-sports.com/">Altitude Sports</a>
+			<a class="l1" href="https://www.amazon.ca/">Amazon</a>
+			<a class="l2" href="http://www.amiami.com">AmiAmi</a>
+			<a class="l1" href="https://www.canadiantire.ca/en.html">Canadian Tire</a>
+			<a class="l2" href="https://www.costco.ca/">Costco</a>
+			<a class="l1" href="https://www.dekudeals.com">Deku Deals</a>
+			<a class="l2" href="https://www.ebay.ca/">eBay</a>
+			<a class="l1" href="https://www.etsy.com/ca/">Etsy</a>
+			<a class="l2" href="https://www.facebook.com/marketplace/">Facebook Marketplace</a>
+			<a class="l1" href="http://gamedealscanada.com">Game Deals Canada</a>
+			<a class="l2" href="https://keepa.com">Keepa</a>
+			<a class="l1" href="https://www.rakuten.ca">Rakuten Canada</a>
+			<a class="l2" href="https://forums.redflagdeals.com/hot-deals-f9/">RedFlagDeals</a>
+			<p class="bm-subcategory">WWII</p>
+			<a class="l1" href="https://www.atthefront.com/">At The Front</a>
+			<a class="l2" href="https://bronsonshop.com/">Bronson Mfg. Co.</a>
+			<a class="l1" href="https://www.whatpriceglory.com/">What Price Glory</a>
+		</div>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Surfing</p>
+		<div class="bm-links">
+			<a class="l1" href="https://discord.com/">Discord</a>
+			<a class="l2" href="https://feedly.com/">Feedly</a>
+			<a class="l1" href="https://www.instagram.com/">Instagram</a>
+			<a class="l2" href="https://www.reddit.com/">Reddit</a>
+			<a class="l1" href="https://www.tiktok.com/">TikTok</a>
+			<a class="l2" href="https://twitter.com/">Twitter</a>
+		</div>
+	</div>
+
+	<div class="bm-box">
+		<p class="bm-category">Watching</p>
+		<div class="bm-links">
+			<a class="l1" href="https://aidrama.me/">aidrama.me</a>
+			<a class="l2" href="https://www.duboku.tv/">Doboku</a>
+			<a class="l1" href="https://dramaday.me/">Dramaday</a>
+			<a class="l2" href="https://everythingmoe.com/">EverythingMoe</a>
+			<a class="l1" href="https://fmhy.net/videopiracyguide">fmhy - Streaming</a>
+			<a class="l2" href="https://goplay.ml/">GoPlay</a>
+			<a class="l1" href="https://www1.adramas.se/">icdrama.se</a>
+			<a class="l2" href="https://kisskh.do">kisskh</a>
+			<a class="l1" href="https://mydramalist.com/">MyDramaList</a>
+			<a class="l2" href="https://nyaa.si/">Nyaa</a>
+			<a class="l1" href="https://playboard.co/">PLAYBOARD</a>
+			<a class="l2" href="https://play.pocketcasts.com/podcasts">Pocket Casts</a>
+			<a class="l1" href="https://www.primevideo.com">Prime Video</a>
+			<a class="l2" href="https://www.twitch.tv">Twitch</a>
+			<a class="l1" href="https://www.youtube.com/feed/subscriptions">YouTube</a>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
 </html>
