@@ -16,6 +16,8 @@
 	text-align: center;
 }
 
+/*
+
 body.sp {
 	background-color: #000000;
 	background: url('https://w.wallhaven.cc/full/kx/wallhaven-kx5v57.jpg') no-repeat center center fixed;
@@ -30,6 +32,8 @@ body.bm {
 	position: relative;
 	font-family: 'Merriweather', serif;
 }
+
+*/
 
 a {
 	transition: color 0.3s ease;
@@ -226,3 +230,4 @@ a.l2:hover {
 #mode:hover {
 	filter: invert(56%) sepia(45%) saturate(6917%) hue-rotate(173deg) brightness(96%) contrast(82%) !important; /* Note: !important used here */
 }
+
