@@ -17,13 +17,15 @@
 }
 
 body.sp {
-	background: #000000 url('https://w.wallhaven.cc/full/kx/wallhaven-kx5v57.jpg') no-repeat center center fixed;
+	background: url('https://w.wallhaven.cc/full/kx/wallhaven-kx5v57.jpg') no-repeat center center fixed;
+	background-color: #000000;
 	background-size: cover;
 	font-family: 'Ubuntu', sans-serif;
 }
 
 body.bm {
-	background: #000000 url('https://w.wallhaven.cc/full/39/wallhaven-39qjjd.jpg') no-repeat center center fixed;
+	background: url('https://w.wallhaven.cc/full/39/wallhaven-39qjjd.jpg') no-repeat center center fixed;
+	background-color: #000000;
 	background-size: cover;
 	position: relative;
 	font-family: 'Merriweather', serif;
@@ -231,3 +233,4 @@ a.l2:hover {
 	filter: invert(56%) sepia(45%) saturate(6917%) hue-rotate(173deg) brightness(96%) contrast(82%) !important;
 }
 */
+
