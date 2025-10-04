@@ -26,10 +26,13 @@ body {
 }
 
 body.sp {
-	background: 
-		url('images/wallhaven-kx5v57.jpg') no-repeat center center fixed,
-		linear-gradient(135deg, rgba(103, 169, 230, 1) 0%, rgba(205, 150, 218, 1) 100%),
-		#67A9E6;
+	background-image: 
+		url('images/wallhaven-kx5v57.jpg'),
+		linear-gradient(135deg, rgba(103, 169, 230, 1) 0%, rgba(205, 150, 218, 1) 100%);
+	background-color: #67A9E6;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
 	background-size: cover;
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -246,6 +249,7 @@ a.l2:hover {
 	filter: invert(56%) sepia(45%) saturate(6917%) hue-rotate(173deg) brightness(96%) contrast(82%) !important;
 }
 */
+
 
 
 
