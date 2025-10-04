@@ -35,10 +35,9 @@ body.sp {
 }
 
 body.bm {
-	background: 
+	background: 
 		url('images/wallhaven-39qjjd.jpg') no-repeat center center fixed,
-		linear-gradient(135deg, rgba(103, 169, 230, 1) 0%, rgba(205, 150, 218, 1) 100%),
-		#67A9E6;
+		#C1C6FC;
 	background-size: cover;
 	font-family: 'Merriweather', serif;
 }
@@ -245,6 +244,7 @@ a.l2:hover {
 	filter: invert(56%) sepia(45%) saturate(6917%) hue-rotate(173deg) brightness(96%) contrast(82%) !important;
 }
 */
+
 
 
 
